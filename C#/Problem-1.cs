@@ -1,4 +1,16 @@
-﻿// Problem 1: Count Special Characters
+﻿## Problem: Count Characters
+
+### Approach:
+Iterate over each character and classify using char methods.
+Used else-if to ensure exclusive categorization.
+
+### Complexity:
+Time: O(n)
+Space: O(1)
+
+### Notes:
+- Initial solution used multiple if statements → fixed to else-if
+- Avoided indirect calculation for special characters
 
 using System;
 
